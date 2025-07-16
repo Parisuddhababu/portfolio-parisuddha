@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Software Developer",
+    "company": "Glasier Inc",
+    "period": "April 2025 - Present",
+    "description": "Developing scalable web platforms using React, TypeScript, and modern UI patterns.",
+    "icon": "FiCpu"
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Brainvire Infotech",
+    "period": "Jan 2023 - Sept 2024",
+    "description": "Built high-performance web applications with React and Next.js, focusing on UX and performance.",
+    "icon": "FiLayout" 
+  },
+  {
+    "title": "MERN Stack Intern",
+    "company": "NxtWave Disruptive Technologies",
+    "period": "Jul 2022 - Dec 2022",
+    "description": "Contributed to full-stack features with MongoDB, Express, React, and Node.js.",
+    "icon": "FiLayers" 
+  },
+  {
+    "title": "Content Creator",
+    "company": "YouTube",
+    "period": "2019 - Present",
+    "description": "Creating and sharing web development, motivational, and devotional content for a growing audience.",
+    "icon": "FiVideo" 
+  }
+]
+ 

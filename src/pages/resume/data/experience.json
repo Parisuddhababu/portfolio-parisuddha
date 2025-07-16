@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Software Developer",
+    "company": "Glasier Inc.",
+    "period": "April 2025 - Present",
+    "location": "Ahmadabad, Gujarat",
+    "description": [
+      "Led the development of scalable web applications using React and Next.js, enhancing performance by 30% through lazy loading and code splitting.",
+      "Specialized in SSR, nested routing, and secure authentication using NextAuth.js for seamless user sessions.",
+      "Implemented TypeScript across the stack with strong typing and ESLint rules, significantly improving code quality and reducing bugs.",
+      "Boosted frontend efficiency with Webpack optimizations, improving load times and accessibility by 15% using Lighthouse audits."
+    ]
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Brainvire Infotech",
+    "period": "Jan 2023 - Sept 2024",
+    "location": "Ahmadabad, Gujarat",
+    "description": [
+      "Built performant web apps using React, Next.js, and Redux Toolkit with strict state management principles.",
+      "Improved SEO and rendering speed through advanced SSR and dynamic routing in Next.js.",
+      "Used TypeScript to enforce code safety and maintainable architecture across complex modules.",
+      "Contributed to UI consistency, linting standards, and unit testing while collaborating closely with designers and backend engineers."
+    ]
+  },
+  {
+    "title": "MERN Stack Developer",
+    "company": "NxtWave Disruptive Technologies",
+    "period": "2021 - 2022",
+    "location": "New York, NY",
+    "description": [
+      "Assisted in full-stack development using MongoDB, Express, React, and Node.js following clean architecture principles.",
+      "Built responsive interfaces using React and optimized assets with Webpack and lazy loading techniques.",
+      "Integrated REST APIs, managed state using Redux Thunk, and implemented efficient async data fetching.",
+      "Applied debugging and performance tools like Chrome DevTools and Lighthouse to enhance user experience and reduce page load time."
+    ]
+  }
+]
