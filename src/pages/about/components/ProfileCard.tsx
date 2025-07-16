@@ -6,11 +6,11 @@ const ProfileCard = () => (
       <div className="relative">
         <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white/20">
           <img
-            src="/src/assets/images/profile.png"
+            src="/public/shared image.jpeg"
             alt="Parisuddha"
             className="w-full h-full object-cover"
             onError={(e) => {
-              e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
+              e.currentTarget.src = "/public/shared image.jpeg";
             }}
           />
         </div>
@@ -30,7 +30,7 @@ const ProfileCard = () => (
     </p>
     <div className="grid grid-cols-2 gap-4">
       <div className="text-center p-4 bg-white/5 rounded-xl">
-        <div className="text-2xl font-bold text-white">2+</div>
+        <div className="text-2xl font-bold text-white">2.5+</div>
         <div className="text-white/70 text-sm">Years Experience</div>
       </div>
       <div className="text-center p-4 bg-white/5 rounded-xl">
