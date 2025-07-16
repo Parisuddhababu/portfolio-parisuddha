@@ -1,7 +1,25 @@
 import { useState, useEffect } from "react";
-import { FiDownload, FiMapPin, FiMail, FiPhone, FiGithub, FiLinkedin, FiYoutube } from "react-icons/fi";
-import { FaReact, FaNodeJs, FaDatabase, FaGithub as FaGithubIcon } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiNextdotjs, SiMongodb } from "react-icons/si";
+import {
+  FiDownload,
+  FiMapPin,
+  FiMail,
+  FiPhone,
+  FiGithub,
+  FiLinkedin,
+  FiYoutube,
+} from "react-icons/fi";
+import {
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaGithub as FaGithubIcon,
+} from "react-icons/fa";
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiMongodb,
+} from "react-icons/si";
 import skills from "./data/skills.json";
 import experience from "./data/experience.json";
 import education from "./data/education.json";
@@ -13,26 +31,32 @@ import ResumeProjects from "./components/ResumeProjects";
 
 const getSkillIcon = (name: string) => {
   const iconMap: { [key: string]: any } = {
-    "React": FaReact,
-    "TypeScript": SiTypescript,
+    React: FaReact,
+    TypeScript: SiTypescript,
     "Next.js": SiNextdotjs,
     "Tailwind CSS": SiTailwindcss,
     "Node.js": FaNodeJs,
-    "MongoDB": SiMongodb,
-    "Git": FaGithubIcon,
-    "SQL": FaDatabase,
+    MongoDB: SiMongodb,
+    Git: FaGithubIcon,
+    SQL: FaDatabase,
   };
   return iconMap[name] || FaReact;
 };
 
 const Resume = () => {
   const [mounted, setMounted] = useState(false);
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div className="min-h-screen pt-20 px-6 py-12 bg-gradient-to-br from-blue-900 via-blue-950 to-gray-900 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-6xl mx-auto">
-        <div className={`text-center mb-16 transition-all duration-700 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}> 
+        <div
+          className={`text-center mb-16 transition-all duration-700 ${
+            mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+          }`}
+        >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="bg-gradient-to-r from-white via-blue-100 to-blue-200 bg-clip-text text-transparent dark:from-gray-100 dark:via-blue-300 dark:to-blue-200">
               Resume
@@ -41,12 +65,14 @@ const Resume = () => {
           <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-8 dark:text-gray-200">
             My professional journey, skills, and experience in web development.
           </p>
-          <button
+          <a
+            href="/Parisuddha_Resume.pdf"
+            download
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-2xl transition-all duration-300"
           >
             <FiDownload className="text-xl" />
             Download PDF
-          </button>
+          </a>
         </div>
         <div className="grid gap-8 lg:grid-cols-3 lg:gap-12">
           {/* Left Column - Contact & Skills */}
@@ -61,7 +87,9 @@ const Resume = () => {
                   </div>
                   <div>
                     <p className="text-white/70 text-sm">Email</p>
-                    <p className="text-white text-sm sm:text-base">parisuddhababu333@gmail.com</p>
+                    <p className="text-white text-sm sm:text-base">
+                      parisuddhababu333@gmail.com
+                    </p>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-3 space-y-2 sm:space-y-0">
@@ -70,7 +98,9 @@ const Resume = () => {
                   </div>
                   <div>
                     <p className="text-white/70 text-sm">Phone</p>
-                    <p className="text-white text-sm sm:text-base">+91 7997657690</p>
+                    <p className="text-white text-sm sm:text-base">
+                      +91 7997657690
+                    </p>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-3 space-y-2 sm:space-y-0">
@@ -79,16 +109,20 @@ const Resume = () => {
                   </div>
                   <div>
                     <p className="text-white/70 text-sm">Location</p>
-                    <p className="text-white text-sm sm:text-base">Andhra Pradesh,India</p>
+                    <p className="text-white text-sm sm:text-base">
+                      Andhra Pradesh,India
+                    </p>
                   </div>
                 </div>
               </div>
               {/* Social Links */}
               <div className="mt-6 pt-6 border-t border-white/20">
-                <h3 className="text-lg font-semibold text-white mb-4">Social</h3>
+                <h3 className="text-lg font-semibold text-white mb-4">
+                  Social
+                </h3>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/Parisuddhababu/portfolio-parisuddha"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 flex items-center justify-center text-white/80 hover:text-white hover:bg-white/20 transition-all duration-300"
@@ -96,7 +130,7 @@ const Resume = () => {
                     <FiGithub />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/parisuddha-babu-pedapudi-a642b8237"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 flex items-center justify-center text-white/80 hover:text-white hover:bg-white/20 transition-all duration-300"
@@ -104,7 +138,7 @@ const Resume = () => {
                     <FiLinkedin />
                   </a>
                   <a
-                    href= ""
+                    href="https://youtube.com/@singerparisuddharaju?si=2y7m6NcT7u3RVHcl"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 flex items-center justify-center text-white/80 hover:text-white hover:bg-white/20 transition-all duration-300"
@@ -134,7 +168,9 @@ const Resume = () => {
             </div>
             {/* Projects */}
             <div className="bg-white/10 backdrop-blur-xl rounded-3xl border border-white/20 p-4 sm:p-6 md:p-8">
-              <h2 className="text-3xl font-bold text-white mb-8">Featured Projects</h2>
+              <h2 className="text-3xl font-bold text-white mb-8">
+                Featured Projects
+              </h2>
               <ResumeProjects projects={projects} />
             </div>
           </div>

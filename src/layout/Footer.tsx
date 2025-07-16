@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             <FaYoutube />
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Parisuddhababu/portfolio-parisuddha"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-300"
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/parisuddha-babu-pedapudi-a642b8237"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-300"

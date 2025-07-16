@@ -64,11 +64,11 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full blur-xl opacity-50 animate-pulse"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/20">
                 <img
-                  src="/src/assets/images/profile.png"
+                  src="/public/shared image.jpeg"
                   alt="Parisuddha"
                   className="w-full h-full object-cover"
                   onError={(e) => {
-                    e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
+                    e.currentTarget.src = "/public/shared image.jpeg";
                   }}
                 />
               </div>
@@ -105,7 +105,7 @@ const Home = () => {
                 </div>
                 <div className="hidden sm:block w-px h-12 bg-white/20"></div>
                 <div className="text-center">
-                  <div className="text-2xl sm:text-3xl font-bold text-white">2+</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-white">2.5+</div>
                   <div className="text-white/70 text-xs sm:text-sm">Years Experience</div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const Home = () => {
           {/* Action Buttons */}
           <div className={`flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8 px-4 transition-all duration-700 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <Link
-              to=""
+              to="https://youtube.com/@singerparisuddharaju?si=2y7m6NcT7u3RVHcl"
                 target="_blank"
               className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-full font-semibold overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl text-sm sm:text-base"
             >
@@ -140,9 +140,9 @@ const Home = () => {
           {/* Social Links */}
           <div className={`flex justify-center space-x-4 sm:space-x-6 px-4 transition-all duration-700 ${mounted ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}>
             {[
-              { icon: FiGithub, href: "https://github.com", label: "GitHub" },
-              { icon: FiLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { icon: FiYoutube, href: " ", label: "youtube" },
+              { icon: FiGithub, href: "https://github.com/Parisuddhababu/portfolio-parisuddha", label: "GitHub" },
+              { icon: FiLinkedin, href: "https://www.linkedin.com/in/parisuddha-babu-pedapudi-a642b8237", label: "LinkedIn" },
+              { icon: FiYoutube, href: "https://youtube.com/@singerparisuddharaju?si=2y7m6NcT7u3RVHcl", label: "youtube" },
             ].map((social) => (
               <a
                 key={social.label}
