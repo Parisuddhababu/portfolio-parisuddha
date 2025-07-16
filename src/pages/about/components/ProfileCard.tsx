@@ -6,7 +6,7 @@ const ProfileCard = () => (
       <div className="relative">
         <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white/20">
           <img
-            src="/public/shared image.jpeg"
+            src="/public/shared_image.jpeg"
             alt="Parisuddha"
             className="w-full h-full object-cover"
             onError={(e) => {

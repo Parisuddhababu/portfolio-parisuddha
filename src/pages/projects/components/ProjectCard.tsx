@@ -15,7 +15,7 @@ const ProjectCard = ({ project, getTechIcon }: { project: Project; getTechIcon: 
   <div className="group bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 overflow-hidden hover:shadow-2xl transition-all duration-500">
     <div className="relative h-48 overflow-hidden">
       <img
-        src={project?.image}
+        src="/public/project-image.jpg" 
         alt={project.title}
         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
       />

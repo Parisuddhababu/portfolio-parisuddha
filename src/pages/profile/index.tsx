@@ -64,11 +64,11 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full blur-xl opacity-50 animate-pulse"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/20">
                 <img
-                  src="/public/shared image.jpeg"
+                  src="/public/shared_image.jpeg"
                   alt="Parisuddha"
                   className="w-full h-full object-cover"
                   onError={(e) => {
-                    e.currentTarget.src = "/public/shared image.jpeg";
+                    e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
                   }}
                 />
               </div>
