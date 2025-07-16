@@ -10,7 +10,7 @@ const ProfileCard = () => (
             alt="Parisuddha"
             className="w-full h-full object-cover"
             onError={(e) => {
-              e.currentTarget.src = "/public/shared image.jpeg";
+              e.currentTarget.src = "/public/shared_image.jpeg";
             }}
           />
         </div>

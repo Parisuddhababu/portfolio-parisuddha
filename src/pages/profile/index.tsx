@@ -68,7 +68,7 @@ const Home = () => {
                   alt="Parisuddha"
                   className="w-full h-full object-cover"
                   onError={(e) => {
-                    e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
+                    e.currentTarget.src = "/public/shared_image.jpeg";
                   }}
                 />
               </div>
