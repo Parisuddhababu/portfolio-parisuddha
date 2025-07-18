@@ -6,7 +6,7 @@
     "link": "",
     "github": "https://github.com/yourusername/ecommerce",
     "technologies": ["React.js", "TypeScript","Tailwind CSS"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "Get Yolo App",
@@ -15,7 +15,7 @@
     "link": "",
     "github": "https://github.com/yourusername/taskapp",
     "technologies": ["React", "Next.js","Tailwind CSS"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "Ocusoft Website",
