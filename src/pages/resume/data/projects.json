@@ -3,18 +3,18 @@
     "title": "OcuSoft Website",
     "description": "Implemented RESTful API integrations using Axios/Fetch, leveraging Redux Thunk for efficient asynchronous state management and caching. Optimized frontend performance through lazy loading, code splitting, and efficient asset handling. Designed and developed a custom table component with advanced filtering, searching, sorting, and pagination. Built fully responsive UIs with cross-browser compatibility. Focused on code optimization, SonarQube analysis, unit testing, and collaborated with designers for seamless CSS integration in Next.js.",
     "technologies": ["React", "Redux", "Next.js", "TypeScript", "Tailwind CSS"],
-    "link": "https://github.com/yourusername/taskapp"
+    "link": "https://github.com/"
   },
   {
     "title": "WHIMarketing",
     "description": "Integrated GraphQL APIs using Axios/Fetch and Redux Thunk for robust async data handling and caching. Enhanced performance with lazy loading, code splitting, and optimized asset delivery. Developed a custom table component featuring filtering, sorting, searching, and pagination using clean architecture. Created dynamic forms with advanced validation and role-based access control. Ensured responsive and cross-browser-compatible UI for seamless performance across devices.",
     "technologies": ["React", "Redux", "Next.js", "TypeScript", "GraphQL", "Tailwind CSS"],
-    "link": "https://github.com/yourusername/portfolio"
+    "link": "https://github.com/"
   },
   {
     "title": "E-Commerce Platform",
     "description": "Built a full-stack e-commerce platform using React, Node.js, and MongoDB. Integrated user authentication, product management, and payment gateways. Designed reusable components and implemented shopping cart and order workflows. Ensured secure backend APIs and responsive frontend using modern UI practices.",
     "technologies": ["React", "Redux", "Node.js", "MongoDB"],
-    "link": "https://github.com/yourusername/ecommerce"
+    "link": "https://github.com/"
   }
 ]

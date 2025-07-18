@@ -87,7 +87,7 @@ const Home = () => {
           </div>
 
           <p className={`text-base sm:text-lg md:text-xl lg:text-2xl text-white/80 max-w-2xl mx-auto leading-relaxed mb-6 sm:mb-8 px-4 dark:text-gray-200 transition-all duration-700 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-           I design responsive websites using modern tech and share web development tutorials, motivational talks on YouTube.
+           I design responsive websites using modern tech and share devotional talks, motivational talks on YouTube.
           </p>
 
           {/* Stats Card */}
@@ -95,7 +95,7 @@ const Home = () => {
             <div className="bg-white/10 rounded-2xl border border-white/20 p-4 sm:p-6 inline-block w-full max-w-md">
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 lg:space-x-8">
                 <div className="text-center">
-                  <div className="text-2xl sm:text-3xl font-bold text-white">2K+</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-white">2.3 K+</div>
                   <div className="text-white/70 text-xs sm:text-sm">YouTube Subscribers</div>
                 </div>
                 <div className="hidden sm:block w-px h-12 bg-white/20"></div>
